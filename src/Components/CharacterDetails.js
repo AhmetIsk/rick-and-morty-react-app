@@ -40,7 +40,7 @@ function CharacterDetails() {
             return <li key={episode.name}> <strong>{episode.name}</strong>  ({episode.episode})</li>
         })}
         </div>
-        <Link to='/'>
+        <Link to='/rick-and-morty-react-app'>
                 <button className="seeDetails" onClick={handleClick}>Go Back</button>
         </Link>
       </div>

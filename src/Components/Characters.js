@@ -19,7 +19,7 @@ function Characters(props) {
             <li>Gender : {character.gender}</li>
             <li>Species : {character.species}</li>
             <li>Status : {character.status}</li>
-            <Link to='/details'>
+            <Link to='/rick-and-morty-react-app/details'>
                 <button className="seeDetails" onClick={handleClick}>See Character Details</button>
             </Link>
         </ul>

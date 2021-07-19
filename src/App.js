@@ -9,8 +9,8 @@ const App = () => {
       <div className="App">
        
         <Switch>
-          <Route exact path='/'> <MainPage/> </Route>
-          <Route exact path='/details'> <CharacterDetails/></Route>
+          <Route exact path='/rick-and-morty-react-app'> <MainPage/> </Route>
+          <Route exact path='/rick-and-morty-react-app/details'> <CharacterDetails/></Route>
         </Switch>
         <div className="footer">
           <p className="copyRightStyle">© Copyright {year} Ahmet Işık. All rights reserved.</p>
