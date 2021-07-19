@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Switch, Route} from 'react-router-dom';
+import CharacterDetails from './Components/CharacterDetails';
+import MainPage from './Components/MainPage';
+const App = () => {
+  const year = new Date().getFullYear();
+    return (
+      <>
+       <h1 className="header"> Rick and Morty App by Ahmet Işık </h1>
+      <div className="App">
+       
+        <Switch>
+          <Route exact path='/'> <MainPage/> </Route>
+          <Route exact path='/details'> <CharacterDetails/></Route>
+        </Switch>
+        <div className="footer">
+          <p className="copyRightStyle">© Copyright {year} Ahmet Işık. All rights reserved.</p>
+        </div>
+      </div>
+      </>
+    );
+  
 }
-
 export default App;

@@ -1,0 +1,73 @@
+.characterBox {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.characterInfo {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.seeDetails {
+    background-color: brown;
+    color: azure;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.1em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.filter {
+    padding: 10px;
+}
+
+.image {
+    margin: 10px;
+}
+
+.App {
+    background-image: url('https://wallpapercave.com/wp/wp6507378.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.noResults {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(155, 8, 27);
+}
+
+.copyRightStyle {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 10px;  
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+}
